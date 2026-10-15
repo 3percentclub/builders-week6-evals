@@ -17,12 +17,12 @@ class: text-center
 Test it before you trust it. Evals, guardrails & system architecture.
 
 - **Maria**: 3percentclub
-- **Farad**: Healthcare tech, builder of Plantiopolis, runs evals on a local DGX Spark
+- **Fard**: Healthcare tech, builder of Plantiopolis, runs evals on a local DGX Spark
 
 <!--
-Welcome to Week 6, the last class before Build Weekend. Tonight we learn to answer one question honestly: is my AI actually right, or did I get lucky once? I'm co-teaching with Farad.
+Welcome to Week 6, the last class before Build Weekend. Tonight we learn to answer one question honestly: is my AI actually right, or did I get lucky once? I'm co-teaching with Fard.
 
-- Farad joins on Zoom. Date locked: Tue Oct 20, 6–8pm ET (he asked about starting before 6). Confirm room before sending this deck.
+- Fard joins on Zoom. Date locked: Tue Oct 20, 6–8pm ET (he asked about starting before 6). Confirm room before sending this deck.
 -->
 
 ---
@@ -110,7 +110,7 @@ One framework to remember: Right, Safe, Steady. Right is accuracy, your Q1 answe
 layout: default
 ---
 
-<div class="kicker">FARAD · Tools vs Agents</div>
+<div class="kicker">FARD · Tools vs Agents</div>
 
 # Tools Are Deterministic. Agents Aren't.
 
@@ -137,16 +137,16 @@ layout: default
 </div>
 
 <!--
-Farad: why non-determinism changes how you test. Tools you test once; agents you measure.
+Fard: why non-determinism changes how you test. Tools you test once; agents you measure.
 
-- FARAD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
+- FARD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
 -->
 
 ---
 layout: default
 ---
 
-<div class="kicker">FARAD · The Loose Screw</div>
+<div class="kicker">FARD · The Loose Screw</div>
 
 # One Eval Run Isn't Proof
 
@@ -159,9 +159,9 @@ A single good run is an anecdote, not a result.
 </div>
 
 <!--
-Farad: the loose-screw metaphor. Why you rerun and compare instead of trusting one score.
+Fard: the loose-screw metaphor. Why you rerun and compare instead of trusting one score.
 
-- FARAD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
+- FARD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
 -->
 
 ---
@@ -169,7 +169,7 @@ layout: cover
 class: text-center
 ---
 
-<div class="kicker">FARAD · Exercise · 5 min · Pairs</div>
+<div class="kicker">FARD · Exercise · 5 min · Pairs</div>
 
 # Something Went Wrong. Find It.
 
@@ -182,9 +182,9 @@ No code needed. Citizens-style thinking works here too.
 </div>
 
 <!--
-Farad runs this. Pairs get the agent output, five minutes, then a few pairs share what they found and how.
+Fard runs this. Pairs get the agent output, five minutes, then a few pairs share what they found and how.
 
-- FARAD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
+- FARD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
 -->
 
 ---
@@ -219,7 +219,7 @@ Every eval has four parts: questions with expected answers, the thing you're tes
 layout: default
 ---
 
-<div class="kicker">FARAD · The Pedantic Model</div>
+<div class="kicker">FARD · The Pedantic Model</div>
 
 # A Checker Inside the Flow
 
@@ -239,9 +239,9 @@ Catch errors mid-run, not after the user sees them.
 </div>
 
 <!--
-Farad: the pedantic model pattern. Strict schema plus a checker model inside the flow, then a judge at the end.
+Fard: the pedantic model pattern. Strict schema plus a checker model inside the flow, then a judge at the end.
 
-- FARAD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
+- FARD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
 -->
 
 ---
@@ -298,7 +298,7 @@ Last week's controls, now as things you measure: what percent of runs leak PII o
 layout: default
 ---
 
-<div class="kicker">FARAD · Local vs Hosted</div>
+<div class="kicker">FARD · Local vs Hosted</div>
 
 # What You Trade When You Run Local
 
@@ -310,11 +310,11 @@ layout: default
 | Quality | TBD | TBD |
 
 <!--
-Farad: benchmark numbers from his DGX Spark. Cost, speed, privacy, quality.
+Fard: benchmark numbers from his DGX Spark. Cost, speed, privacy, quality.
 
-- FARAD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
+- FARD's section. Skeleton only: waiting on his “I get X / don't get Y / I'd add Z”.
 
-- Fill the table with Farad's real benchmark numbers.
+- Fill the table with Fard's real benchmark numbers.
 -->
 
 ---
@@ -363,7 +363,7 @@ No API key · 20 civic prompts · 3 models x 3 runs · is the difference real?
 <!--
 Open github.com/3percentclub/builders-week6-evals and click the Colab badge in the README. No key, no account. Run the same 20 civic prompts through three models, three times each, then compare. Last block: write the Safe check that catches leaked personal info. Want real models? The same harness works with any OpenAI-style provider, or Ollama locally, as an optional extra.
 
-- Farad's ask covered: `python run_eval.py --local` runs against Ollama.
+- Fard's ask covered: `python run_eval.py --local` runs against Ollama.
 
 - Expected: model-b vs model-a = noise (run 1 nearly ties, run 3 drops, so one run would have lied); model-c = REAL worse on Right and Safe.
 -->

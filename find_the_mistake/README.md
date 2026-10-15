@@ -22,4 +22,4 @@ Below is a question, the guide the agent was given, and the agent's answer. The 
 
 ---
 
-*Facilitator: Farad's Plantiopolis example replaces or joins this one when it arrives.*
+*Facilitator: Fard's Plantiopolis example replaces or joins this one when it arrives.*
