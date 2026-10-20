@@ -22,4 +22,4 @@ Below is a question, the guide the agent was given, and the agent's answer. The 
 
 ---
 
-*Facilitator: Fard's Plantiopolis example replaces or joins this one when it arrives.*
+*Facilitator: tonight's main find-the-mistake is the board-report exercise in the slides. Use this one as a backup or for a fast pair.*
